@@ -1,8 +1,3 @@
-# React + Vite
+# Description
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The 1 Minute Recipe Generator is a smart tool that transforms your kitchen ingredients into personalized, creative recipes in seconds! Built with React.js and powered by Mistral AI, it offers a fun, quick solution to meal planning. Just input what you have, and let the AI generate delicious recipe ideas tailored to your preferences.
