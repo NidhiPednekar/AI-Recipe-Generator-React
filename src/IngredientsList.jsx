@@ -23,7 +23,7 @@ const IngredientsList = forwardRef((props, ref) => {
                 {props.ingredients.length > 3 && (
                     <div className="get-recipe-container">
                         <div className="recipe-content" ref={ref}>
-                            <h3>Recipe in a minute? Well, we do that here!!</h3>
+                            <h3>Get ready for your recipe in a minute</h3>
                             <p>Generate your delicious recipe with the ingredients on hand</p>
                             <button 
                              className="getRecipe"

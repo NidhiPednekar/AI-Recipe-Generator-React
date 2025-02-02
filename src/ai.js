@@ -8,7 +8,7 @@ suggests a recipe they could make with some or all of those ingredients. You
   too many extra ingredients. Format your response in markdown to make it easier to render to a web page
 `
 
-const HF_ACCESS_TOKEN = process.env.HF_ACCESS_TOKEN;
+const HF_ACCESS_TOKEN = 'your_hf_access_key';
 
 const hf = new HfInference(HF_ACCESS_TOKEN)
 

@@ -40,6 +40,7 @@ export default function Form() {
     return (
         <main>
             <form onSubmit={handleSubmit}>
+                <h1>Add your ingredients here to get a delicious recipe within a minute!</h1>
                 <input
                     type="text"
                     placeholder="e.g. tomatoes"
@@ -50,13 +51,16 @@ export default function Form() {
             </form>
 
             {ingredients.length > 0 && 
-                <IngredientsList 
-                ref={recipeSection}
-                ingredients={ingredients} 
-                getRecipe={getRecipe}
-                removeIngredient={removeIngredient}
-                />
-            }
+    <div className="ingredients-section">
+        <IngredientsList 
+            ref={recipeSection}
+            ingredients={ingredients} 
+            getRecipe={getRecipe}
+            removeIngredient={removeIngredient}
+        />
+    </div>
+}
+
             {
                 isLoading && (
                     <div className="loading-container">
