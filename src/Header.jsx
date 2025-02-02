@@ -5,8 +5,9 @@ export default function Header(){
         <main>
         <header>
             <img src={logo}  height= "60px"alt="" />
-            <h1>1 Minute Recipe</h1>
+            <h1 className="main-heading">1 Minute Recipe</h1>
         </header>
+        
         </main>
     )
 }
