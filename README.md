@@ -1,8 +1,14 @@
-# React + Vite
+# AI Recipe Generator 🍴
+The AI Recipe Generator uses AI to turn your ingredients into delicious, personalized recipes. Powered by React.js and Mistral AI, it simplifies meal planning and sparks culinary creativity.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+🍳 Smart Recipe Suggestions: Input ingredients and get AI-generated recipes instantly.
+🛠️ Interactive Design: React-powered for smooth and responsive user interactions.
+🌟 Real-Time AI Integration: Leveraging the Hugging Face Inference API for instant results.
 
-Currently, two official plugins are available:
+## Technologies Used
+React.js: Component-based architecture for an intuitive interface.
+Hugging Face Inference API: AI-powered recipe generation.
+CSS: For polished and user-friendly styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Make cooking exciting, creative, and effortless with AI Recipe Generator!
