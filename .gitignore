@@ -25,3 +25,5 @@ dist-ssr
 
 # Ignore .env file containing sensitive data (API keys, tokens, etc.)
 .env
+
+.vercel
